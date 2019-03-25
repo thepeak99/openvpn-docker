@@ -1,3 +1,3 @@
 #!/bin/sh
 
-openvpn --config /etc/config/openvpn.conf
+openvpn --config /etc/openvpn/openvpn.conf
