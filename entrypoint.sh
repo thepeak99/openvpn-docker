@@ -1,4 +1,3 @@
 #!/bin/sh
 
-iptables -t nat -A POSTROUTING -s $IP_RANGE -j MASQUERADE
-openvpn --config /etc/openvpn.conf
+openvpn --config /etc/config/openvpn.conf
